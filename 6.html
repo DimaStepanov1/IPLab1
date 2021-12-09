@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 6</title>
+    <script>
+        function checkSpam(str){
+            let newStr = str.toUpperCase();
+            if(newStr.includes("VIAGRA") || newStr.includes("XXX"))
+            {
+                return true;
+            }
+            return false;
+        }
+        alert(`${checkSpam("buy ViAgRa NOW!")}\n` + `${checkSpam("free xxxxxx")}\n` + `${checkSpam("innocent rabbit")}\n`)
+    </script>
+</head>
+<body>
+<div>
+    <p>
+        <a href="index.html">На головну</a>
+    </p>
+</div>
+</body>
+</html>
